@@ -1,0 +1,36 @@
+.TaskInput {
+  display: flex;
+  gap: 12px;
+}
+
+.input {
+  background: rgba(255, 0, 0, 0.4);
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 13px;
+  box-shadow: inset 1px 2px 5px rgb(5, 5, 5);
+  color: #fff;
+}
+
+.input::placeholder {
+  color: rgba(0, 0, 0, 0.7);
+  font: bold;
+}
+
+.button {
+  border-radius: 13px;
+  background: rgba(255, 0, 0, 0.4);
+  border: none;
+  outline: none;
+}
+
+.button:hover {
+  cursor: pointer;
+  color: #fff;
+  box-shadow: inset 1px 1px 2px rgb(5, 5, 5);
+}
+
+.button:active {
+  box-shadow: inset 1px 2px 5px rgb(5, 5, 5);
+}

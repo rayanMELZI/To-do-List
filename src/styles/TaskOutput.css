@@ -1,0 +1,65 @@
+.TaskOutput {
+  width: 100%;
+  max-height: 63%;
+  margin-right: 8px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 7px;
+  background-color: none;
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.678);
+}
+
+.TaskOutput ul {
+  list-style: none;
+  margin-left: -10px;
+}
+
+.taskEdit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 10px;
+  height: 40px;
+}
+
+div.taskEdit > div {
+  display: flex;
+  gap: 5px;
+}
+div.taskEdit > div i {
+  cursor: pointer;
+}
+
+.editInput {
+  background: linear-gradient(90deg, rgba(255, 0, 0, 0.4), transparent);
+  border: none;
+  outline: none;
+  padding: 5px 0;
+  padding-left: 13px;
+  transform: translate(-13px);
+  border-radius: 13px;
+  color: #ffff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.save {
+  border-radius: 13px;
+  background: rgba(255, 0, 0, 0.4);
+  padding: 5px;
+  border: none;
+  outline: none;
+}
